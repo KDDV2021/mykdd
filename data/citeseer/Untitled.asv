@@ -1,0 +1,14 @@
+% for i = 1:2708
+%     for j = 1:2708
+%         A(i,j) = norm(matrix(i,:)-matrix(j,:),2);
+%     end
+% end
+
+B = zeros(2708,2708);
+ for i = 1:2708
+     [a,b]  = sort(A(1,:));
+     for j = 1:k
+     B(i,b(k)) =     
+     end
+     B(i,:) = a(b(:,1:15));
+ end
